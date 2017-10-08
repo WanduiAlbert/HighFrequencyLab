@@ -13,13 +13,13 @@ $INSUNITS
   9
 $EXTMIN
   10
--624
+-493
   20
 -451.25
   9
 $EXTMAX
   10
-210.5
+79.5
   20
 548.75
   0
@@ -93,33 +93,33 @@ VERTEX
   8
 Thick_Metal
   10
--506.5
+79.5
   20
-322.25
+548.75
   0
 VERTEX
   8
 Thick_Metal
   10
--566
+79.5
   20
-322.25
+308.75
   0
 VERTEX
   8
 Thick_Metal
   10
--566
+35
   20
-366.75
+308.75
   0
 VERTEX
   8
 Thick_Metal
   10
--506.5
+35
   20
-366.75
+548.75
   0
 SEQEND
   0
@@ -135,9 +135,51 @@ VERTEX
   8
 Thick_Metal
   10
--506.5
+79.5
   20
-366.75
+-211.25
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+79.5
+  20
+-451.25
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+35
+  20
+-451.25
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+35
+  20
+-211.25
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Thick_Metal
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-448.5
+  20
+548.75
   0
 VERTEX
   8
@@ -161,15 +203,7 @@ Thick_Metal
   10
 -493
   20
-322.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--506.5
-  20
-322.25
+548.75
   0
 SEQEND
   0
@@ -180,256 +214,6 @@ Thick_Metal
 1
   66
 1
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-93
-  20
-366.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-35
-  20
-308.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-79.5
-  20
-308.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-79.5
-  20
-322.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-93
-  20
-322.25
-  0
-SEQEND
-  0
-POLYLINE
-  8
-Thick_Metal
-  70
-1
-  66
-1
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-93
-  20
--269.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-35
-  20
--211.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-79.5
-  20
--211.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-79.5
-  20
--224.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-93
-  20
--224.75
-  0
-SEQEND
-  0
-POLYLINE
-  8
-Thick_Metal
-  70
-1
-  66
-1
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-152.5
-  20
--269.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-93
-  20
--269.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-93
-  20
--224.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-152.5
-  20
--224.75
-  0
-SEQEND
-  0
-POLYLINE
-  8
-Thick_Metal
-  70
-1
-  66
-1
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--624
-  20
-380.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--566
-  20
-322.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--566
-  20
-366.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--579.5
-  20
-366.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--579.5
-  20
-380.25
-  0
-SEQEND
-  0
-POLYLINE
-  8
-Thick_Metal
-  70
-1
-  66
-1
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-210.5
-  20
--282.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-152.5
-  20
--224.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-152.5
-  20
--269.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-166
-  20
--269.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-166
-  20
--282.75
-  0
-SEQEND
-  0
-POLYLINE
-  8
-Thick_Metal
-  70
-1
-  66
-1
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--506.5
-  20
--269.25
   0
 VERTEX
   8
@@ -443,377 +227,25 @@ VERTEX
   8
 Thick_Metal
   10
+-448.5
+  20
+-451.25
+  0
+VERTEX
+  8
+Thick_Metal
+  10
+-493
+  20
+-451.25
+  0
+VERTEX
+  8
+Thick_Metal
+  10
 -493
   20
 -211.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--493
-  20
--224.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--506.5
-  20
--224.75
-  0
-SEQEND
-  0
-POLYLINE
-  8
-Thick_Metal
-  70
-1
-  66
-1
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-210.5
-  20
--282.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-210.5
-  20
--451.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-166
-  20
--451.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-166
-  20
--282.75
-  0
-SEQEND
-  0
-POLYLINE
-  8
-Thick_Metal
-  70
-1
-  66
-1
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-210.5
-  20
-548.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-210.5
-  20
-380.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-166
-  20
-380.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-166
-  20
-548.75
-  0
-SEQEND
-  0
-POLYLINE
-  8
-Thick_Metal
-  70
-1
-  66
-1
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--506.5
-  20
--269.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--566
-  20
--269.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--566
-  20
--224.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--506.5
-  20
--224.75
-  0
-SEQEND
-  0
-POLYLINE
-  8
-Thick_Metal
-  70
-1
-  66
-1
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--579.5
-  20
-548.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--579.5
-  20
-380.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--624
-  20
-380.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--624
-  20
-548.75
-  0
-SEQEND
-  0
-POLYLINE
-  8
-Thick_Metal
-  70
-1
-  66
-1
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-210.5
-  20
-380.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-152.5
-  20
-322.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-152.5
-  20
-366.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-166
-  20
-366.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-166
-  20
-380.25
-  0
-SEQEND
-  0
-POLYLINE
-  8
-Thick_Metal
-  70
-1
-  66
-1
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-152.5
-  20
-322.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-93
-  20
-322.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-93
-  20
-366.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
-152.5
-  20
-366.75
-  0
-SEQEND
-  0
-POLYLINE
-  8
-Thick_Metal
-  70
-1
-  66
-1
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--624
-  20
--282.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--566
-  20
--224.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--566
-  20
--269.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--579.5
-  20
--269.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--579.5
-  20
--282.75
-  0
-SEQEND
-  0
-POLYLINE
-  8
-Thick_Metal
-  70
-1
-  66
-1
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--579.5
-  20
--282.75
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--579.5
-  20
--451.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--624
-  20
--451.25
-  0
-VERTEX
-  8
-Thick_Metal
-  10
--624
-  20
--282.75
   0
 SEQEND
   0
