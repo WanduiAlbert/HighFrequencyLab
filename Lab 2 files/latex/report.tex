@@ -47,6 +47,15 @@ Using the circuit design, we made a layout and routed the input and output lines
 \subsection{Lab Testing and Analysis}
 In lab, we soldered the SMA connectors to the input and output traces of the circuit after deburring the edges of the fabricated circuit for a snug fit. We then calibrated the FieldFox Network Analyzer with the input power set to -10.0 dBm. Once calibration was done, we measured 3 2-port responses of the branch line coupler; $S_{21}, S_{31}$ and $S_{41}$. The results in comparison to the simulated circuit response are shown in figure \ref{fig:branchmag} and \ref{fig:branchphase}. 
 
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[scale=0.05]{BranchImg.jpg}
+    \caption{Measurement Setup for the Branch Line Coupler}
+    \label{fig:branchimg}
+\end{figure}
+
+
 From the figure, we can see clear deviations in the measured vs. simulated response of the circuit. There are a number of possible explanations for these effects. For starters, the solder joints between the SMA launches and the circuit could introduce unwanted impedances into the circuit. Capacitive and Inductive connections would modify the circuit response. ADDSECTION.
 
 Some of the deviations could also be explained by the tolerances in the fabrication of the circuit. The substrate material datasheet lists 2 different values for the dielectric constant as measured by different techniques. Setting the dielectric constant in the range 10.2 - 10.8 gives trace widths in the range ADDVALUE and quarter wavelength ranges ADDVALUE for the 50 $\Omega$ sections. This could change the response of the circuit as shown below. 
@@ -54,12 +63,19 @@ Some of the deviations could also be explained by the tolerances in the fabricat
 We tested these hypotheses by varying the coupler line widths to make simulations that matched the measured results. The results are shown in figure ADDFIGURE. 
 
 
-% \begin{figure}[!htbp]
-%     \centering
-%     \includegraphics[scale=0.5]{CalibratedShort.png}
-%     \caption{Smith Chart showing the Short Calibration Standard with Reference Plane Extensions done on the NA (purple) and emulated on Microwave Office (blue).}
-%     \label{fig:calib}
-% \end{figure}
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[scale=0.5]{BranchCircuit.png}
+    \caption{A comparison between the simulated and measured performance of the Branch Line Circuit}
+    \label{fig:branchmag}
+\end{figure}
+
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[scale=0.5]{BranchPhase.png}
+    \caption{The simulated phase relationship between the two output ports as a function of frequency.}
+    \label{fig:branchphase}
+\end{figure}
 
 \FloatBarrier
 
@@ -69,38 +85,20 @@ We tested these hypotheses by varying the coupler line widths to make simulation
 
 \subsection{Lab Testing and Analysis}
 
-
-% \begin{figure}[!htbp]
-%     \centering
-%     \includegraphics[width=0.35\textwidth]{amp_measurement.jpeg}
-%     \caption{Measurement Setup for amplifier on the NA.}
-%     \label{fig:ampimg}
-% \end{figure}
-
-
-% \begin{figure}[!htbp]
-%     \centering
-%     \includegraphics[scale=0.45]{AmplifierMCandMeasured.png}
-%     \caption{Comparison of the Amplifier S parameters from the NA measurements to the sourced values from the data sheet.}
-%     \label{fig:amp}
-% \end{figure}
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[scale=0.05]{WilkinsonImg.jpg}
+    \caption{Measurement Setup for the Wilkinson Power Divider.}
+    \label{fig:wilkinsonimg}
+\end{figure}
 
 
-% \begin{figure}[!htbp]
-%     \centering
-%     \includegraphics[width=0.35\textwidth]{filter_measurement.jpeg}
-%     \caption{Measurement Setup for filter on the NA.}
-%     \label{fig:filterimg}
-% \end{figure}
-
-
-% \begin{figure}[!htbp]
-%     \centering
-%     \includegraphics[scale=0.45]{FilterMCandMeasured.png}
-%     \caption{Comparison of the Filter S parameters from the NA measurements to the sourced values from the data sheet.}
-%     \label{fig:filter}
-% \end{figure}
-
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[scale=0.5]{WilkinsonCircuit.png}
+    \caption{A comparison between the simulated and measured performance of the Wilkinson Power Divider.}
+    \label{fig:wilkinsonmag}
+\end{figure}
 
 \FloatBarrier
 
@@ -113,12 +111,12 @@ The matching network was designed in MWO using a Smith Chart to achieve a match 
 
 In order to correctly measure the input power vs. output power response of the MC amplifier, we needed to first quantify the losses in the circuit due to the cabling and connectors. To do so, we connected a signal generator through the SMA cables to the SA and measured the power in the SA as a function of the power from the signal generator. We swept Pin from -20.0 dBm to 0.0 dBm in 1 dB steps. The results are shown in figure . This shows that we have about 2dB loss due to the cables.
 
-% \begin{figure}[!htbp]
-%     \centering
-%     \includegraphics[scale=0.35]{cable_power_loss.png}
-%     \caption{Measurements of the Input Power from signal generator to the actual power measured. This shows the power loss in the cables and connectors.}
-%     \label{fig:cableloss}
-% \end{figure}
+\begin{figure}[!htbp]
+    \centering
+    \includegraphics[scale=0.05]{RCImg.jpg}
+    \caption{Measurement Setup for the RC Impedance Matching.}
+    \label{fig:RCimg}
+\end{figure}
 
 Once the amplifier is connected in the circuit as shown in figure, we measured the output power of the amplifier as a function of the input power from the signal generator, adjusted for losses in the cables. In addition, a 10dB attenuator was added to the output of the amplifier to protect the SA from damage. This value was added back to the power measured by the SA. The signal generator provided a single tone at 5.9 GHz. At low input powers, the response of the amplifier is mostly linear as is shown in figure fig:ampcompress}. At higher input power, the amplifier saturates and delivers less power at 5.9 GHz than the expected linear response. This deviation is due to non-linearities becoming more and more important in the amplifier. From this, we measured the 1dB compression point of the amplifier as at an output power of 10.9 dBm at 5.9 GHz. The datasheet reports a 1dB compression point of 12.1 dBm at 6.00 GHz in contrast.
 
