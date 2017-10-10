@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.8.31)  9 OCT 2017 08:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.8.31)  10 OCT 2017 02:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -429,104 +429,223 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \openout3 = `reportNotes.bib'.
 
+ [1{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 55.
 
-LaTeX Warning: Reference `tab:branch' on page 1 undefined on input line 32.
-
-<BranchImg.jpg, id=1, 4047.12pt x 3035.34pt>
+<BranchImg.jpg, id=16, 4047.12pt x 3035.34pt>
 File: BranchImg.jpg Graphic file (type jpg)
 <use BranchImg.jpg>
-Package pdftex.def Info: BranchImg.jpg  used on input line 53. on input line 53
+Package pdftex.def Info: BranchImg.jpg  used on input line 59. on input line 59
 .
 Package pdftex.def Info: Requested size: 202.36786pt x 151.7759pt on input line
- 53.
-[1{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./BranchImg.j
-pg>]
-<BranchCircuit.png, id=16, 650.43pt x 364.36125pt>
-File: BranchCircuit.png Graphic file (type png)
-<use BranchCircuit.png>
-Package pdftex.def Info: BranchCircuit.png  used on input line 68. on input lin
-e 68.
-Package pdftex.def Info: Requested size: 325.2142pt x 182.18018pt on input line
- 68.
+ 59.
+<BranchThro.png, id=17, 650.43pt x 362.85562pt>
+File: BranchThro.png Graphic file (type png)
+<use BranchThro.png>
+Package pdftex.def Info: BranchThro.png  used on input line 66. on input line 6
+6.
+Package pdftex.def Info: Requested size: 260.16739pt x 145.13968pt on input lin
+e 66.
 
-Overfull \hbox (79.2142pt too wide) in paragraph at lines 68--69
+Overfull \hbox (14.16739pt too wide) in paragraph at lines 66--67
  [][] 
  []
 
-<BranchPhase.png, id=17, 650.43pt x 426.84468pt>
+<BranchIsolation.png, id=18, 650.43pt x 453.94594pt>
+File: BranchIsolation.png Graphic file (type png)
+<use BranchIsolation.png>
+Package pdftex.def Info: BranchIsolation.png  used on input line 73. on input l
+ine 73.
+Package pdftex.def Info: Requested size: 260.16739pt x 181.57515pt on input lin
+e 73.
+
+Overfull \hbox (14.16739pt too wide) in paragraph at lines 73--74
+ [][] 
+ []
+
+<BranchPhase.png, id=19, 650.43pt x 373.395pt>
 File: BranchPhase.png Graphic file (type png)
 <use BranchPhase.png>
-Package pdftex.def Info: BranchPhase.png  used on input line 75. on input line 
-75.
-Package pdftex.def Info: Requested size: 325.2142pt x 213.42181pt on input line
- 75.
+Package pdftex.def Info: BranchPhase.png  used on input line 81. on input line 
+81.
+Package pdftex.def Info: Requested size: 260.16739pt x 149.35535pt on input lin
+e 81.
 
-Overfull \hbox (79.2142pt too wide) in paragraph at lines 75--76
+Overfull \hbox (14.16739pt too wide) in paragraph at lines 81--82
  [][] 
  []
 
-<WilkinsonImg.jpg, id=18, 4047.12pt x 3035.34pt>
+[2 <./BranchImg.jpg> <./BranchThro.png> <./BranchIsolation.png> <./BranchPhase.
+png>]
+<CoupledMatch.png, id=25, 650.43pt x 453.94594pt>
+File: CoupledMatch.png Graphic file (type png)
+<use CoupledMatch.png>
+Package pdftex.def Info: CoupledMatch.png  used on input line 90. on input line
+ 90.
+Package pdftex.def Info: Requested size: 260.16739pt x 181.57515pt on input lin
+e 90.
+
+Overfull \hbox (14.16739pt too wide) in paragraph at lines 90--91
+ [][] 
+ []
+
+<ThroMatch.png, id=26, 650.43pt x 453.94594pt>
+File: ThroMatch.png Graphic file (type png)
+<use ThroMatch.png>
+Package pdftex.def Info: ThroMatch.png  used on input line 97. on input line 97
+.
+Package pdftex.def Info: Requested size: 260.16739pt x 181.57515pt on input lin
+e 97.
+
+Overfull \hbox (14.16739pt too wide) in paragraph at lines 97--98
+ [][] 
+ []
+
+<IsolationMatch.png, id=27, 650.43pt x 453.94594pt>
+File: IsolationMatch.png Graphic file (type png)
+<use IsolationMatch.png>
+Package pdftex.def Info: IsolationMatch.png  used on input line 104. on input l
+ine 104.
+Package pdftex.def Info: Requested size: 260.16739pt x 181.57515pt on input lin
+e 104.
+
+Overfull \hbox (14.16739pt too wide) in paragraph at lines 104--105
+ [][] 
+ []
+
+[3 <./CoupledMatch.png> <./ThroMatch.png> <./IsolationMatch.png>]
+<EvenMode.png, id=31, 914.66719pt x 557.83406pt>
+File: EvenMode.png Graphic file (type png)
+<use EvenMode.png>
+Package pdftex.def Info: EvenMode.png  used on input line 137. on input line 13
+7.
+Package pdftex.def Info: Requested size: 182.93019pt x 111.56483pt on input lin
+e 137.
+<OddMode.png, id=32, 1059.96pt x 599.23875pt>
+File: OddMode.png Graphic file (type png)
+<use OddMode.png>
+Package pdftex.def Info: OddMode.png  used on input line 158. on input line 158
+.
+Package pdftex.def Info: Requested size: 211.98824pt x 119.84563pt on input lin
+e 158.
+ [4 <./EvenMode.png> <./OddMode.png>]
+<WilkinsonImg.jpg, id=39, 4047.12pt x 3035.34pt>
 File: WilkinsonImg.jpg Graphic file (type jpg)
 <use WilkinsonImg.jpg>
-Package pdftex.def Info: WilkinsonImg.jpg  used on input line 90. on input line
- 90.
+Package pdftex.def Info: WilkinsonImg.jpg  used on input line 215. on input lin
+e 215.
 Package pdftex.def Info: Requested size: 202.36786pt x 151.7759pt on input line
- 90.
-<WilkinsonCircuit.png, id=19, 650.43pt x 380.92313pt>
+ 215.
+<WilkinsonCircuit.png, id=40, 650.43pt x 380.92313pt>
 File: WilkinsonCircuit.png Graphic file (type png)
 <use WilkinsonCircuit.png>
-Package pdftex.def Info: WilkinsonCircuit.png  used on input line 98. on input 
-line 98.
-Package pdftex.def Info: Requested size: 325.2142pt x 190.46109pt on input line
- 98.
+Package pdftex.def Info: WilkinsonCircuit.png  used on input line 223. on input
+ line 223.
+Package pdftex.def Info: Requested size: 260.16739pt x 152.36655pt on input lin
+e 223.
 
-Overfull \hbox (79.2142pt too wide) in paragraph at lines 98--99
+Overfull \hbox (14.16739pt too wide) in paragraph at lines 223--224
  [][] 
  []
 
-[2 <./BranchCircuit.png> <./BranchPhase.png> <./WilkinsonImg.jpg> <./WilkinsonC
-ircuit.png>]
-<RCImg.jpg, id=23, 3035.34pt x 4047.12pt>
+[5 <./WilkinsonImg.jpg> <./WilkinsonCircuit.png>]
+<WilkinsonCoupled.png, id=44, 650.43pt x 453.94594pt>
+File: WilkinsonCoupled.png Graphic file (type png)
+<use WilkinsonCoupled.png>
+Package pdftex.def Info: WilkinsonCoupled.png  used on input line 233. on input
+ line 233.
+Package pdftex.def Info: Requested size: 260.16739pt x 181.57515pt on input lin
+e 233.
+
+Overfull \hbox (14.16739pt too wide) in paragraph at lines 233--234
+ [][] 
+ []
+
+<WilkinsonThro.png, id=45, 650.43pt x 453.94594pt>
+File: WilkinsonThro.png Graphic file (type png)
+<use WilkinsonThro.png>
+Package pdftex.def Info: WilkinsonThro.png  used on input line 240. on input li
+ne 240.
+Package pdftex.def Info: Requested size: 260.16739pt x 181.57515pt on input lin
+e 240.
+
+Overfull \hbox (14.16739pt too wide) in paragraph at lines 240--241
+ [][] 
+ []
+
+<WilkinsonIso.png, id=46, 650.43pt x 453.94594pt>
+File: WilkinsonIso.png Graphic file (type png)
+<use WilkinsonIso.png>
+Package pdftex.def Info: WilkinsonIso.png  used on input line 247. on input lin
+e 247.
+Package pdftex.def Info: Requested size: 260.16739pt x 181.57515pt on input lin
+e 247.
+
+Overfull \hbox (14.16739pt too wide) in paragraph at lines 247--248
+ [][] 
+ []
+
+[6 <./WilkinsonCoupled.png> <./WilkinsonThro.png> <./WilkinsonIso.png>]
+<RCImg.jpg, id=50, 3035.34pt x 4047.12pt>
 File: RCImg.jpg Graphic file (type jpg)
 <use RCImg.jpg>
-Package pdftex.def Info: RCImg.jpg  used on input line 116. on input line 116.
+Package pdftex.def Info: RCImg.jpg  used on input line 263. on input line 263.
 Package pdftex.def Info: Requested size: 151.7759pt x 202.36786pt on input line
- 116.
+ 263.
+<RCMatched.png, id=51, 650.43pt x 427.5975pt>
+File: RCMatched.png Graphic file (type png)
+<use RCMatched.png>
+Package pdftex.def Info: RCMatched.png  used on input line 270. on input line 2
+70.
+Package pdftex.def Info: Requested size: 260.16739pt x 171.03596pt on input lin
+e 270.
 
-! Too many }'s.
-l.121 ...ar as is shown in figure fig:ampcompress}
-                                                  . At higher input power, t...
+Overfull \hbox (14.16739pt too wide) in paragraph at lines 270--271
+ [][] 
+ []
 
-? 
+<RCSmith.png, id=52, 650.43pt x 439.6425pt>
+File: RCSmith.png Graphic file (type png)
+<use RCSmith.png>
+Package pdftex.def Info: RCSmith.png  used on input line 277. on input line 277
+.
+Package pdftex.def Info: Requested size: 260.16739pt x 175.85388pt on input lin
+e 277.
+
+Overfull \hbox (14.16739pt too wide) in paragraph at lines 277--278
+ [][] 
+ []
+
 No file report.bbl.
-[3 <./RCImg.jpg>] (./report.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[7 <./RCImg.jpg> <./RCMatched.png>] [8 <./RCSmith.png>] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 5784 strings out of 492990
- 82683 string characters out of 6136334
- 171188 words of memory out of 5000000
- 9279 multiletter control sequences out of 15000+600000
- 6294 words of font info for 23 fonts, out of 8000000 for 9000
+ 5872 strings out of 492990
+ 84127 string characters out of 6136334
+ 170458 words of memory out of 5000000
+ 9351 multiletter control sequences out of 15000+600000
+ 7962 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,43p,1383b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2017
+ 41i,10n,43p,2013b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/tex
+live/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2017
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2017/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2017/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
-pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb><c:/texlive/201
-7/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on report.pdf (3 pages, 3981045 bytes).
+ype1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2017/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmti9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super
+/sfrm1000.pfb>
+Output written on report.pdf (8 pages, 4211948 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 39 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
