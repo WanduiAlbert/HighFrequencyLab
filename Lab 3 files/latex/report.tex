@@ -17,26 +17,39 @@
 \maketitle
 
 \section*{Introduction}\label{sec:introduction}
-Talk about the steps involved in designing a good low noise amplifier.
+The goal of this lab was to design, assemble and test the noise performance of a low noise amplifier (LNA). We optimized our LNA for gain, noise performance and output matching. There are a number of stages involved in the design of a well performing LNA. First, we selected the DC bias points of the amplifier by a suitable choice of resistors at the base and collector of the Bipolar Junction Transistor (BJT). Once the bias point was established, we designed the input matching network for the amplifier.
 
-\begin{itemize}
-    \item talk about biasing briefly
+The input matching network is chosen to minimize the noise power in the amplifier. To see this, we consider the noise factor of the amplifier, F, which is the ratio of the signal to noise ratio at the output to that at the input. The noise factor captures the added noise due to the amplifier that is present in the output. For an amplifier with an effective temperature $T_e$,  and a reference temperature $T_0 = 290 K$ (room temperature), the noise factor is given by the equation
 
-    \item talk about stability and designing a good input matching network. Begin with a discussion on noise terms
+\begin{equation}
+    F = 1 + \frac{T_e}{T_0}.
+\end{equation} 
 
-    \item talk about designing the output matching network
+The noise in the amplifier can be characterized using three parameters, $T_{min}, N \textrm{and} \Gamma_{opt}$. $T_{min}$, is the minimum achievable noise temperature for the transistor design. N is a scaling factor that weights the noise contribution due to the mismatch between the amplifier and the input network. Lastly, $\Gamma_{opt}$ is the reflection coefficient of the source that minimizes the noise in the system. Using these three parameters, we can express the effective temperature of the amplifier as 
 
-    \item discuss the Y factor method used 
+\begin{equation}
+    T_e = T_{min} + 4 N T_0 \frac{|\Gamma_s - \Gamma_{opt}|^2}{\left(1 - |\Gamma_s|^2\right)\left(1 - |\Gamma_{opt}|^2\right)}.
+\end{equation}
 
-    \item discuss noise factors for the low pass filter as well as the amplifier in detail.
-\end{itemize}
+Thus we designed our input matching network to present $\Gamma_s = \Gamma_{opt}$ to the transistor biasing network at the input of the amplifier. Usually, the MWO simulations give the optimal reflection coefficient looking into the transistor network thus we matched based on the condition, $\Gamma_s = \Gamma_{in}^*$. 
+
+We also payed close attention to stability considerations. At a given frequency, we wanted our amplifier to be unconditionally stable. That is, for any given choice of passive source and load impedances, $|\Gamma_{in}| < 1, |\Gamma_{out} < 1|$. We can then define criteria $\mu_1 > 1, \mu_2 > 1$ based on this condition to ensure that we will always be unconditionally matched. Defining $\Delta = S_{11}S_{22} - S_{12}S_{21}$, we obtain
+
+\begin{align}
+    \mu_1 &= \frac{1 - |S_{11}|^2}{|S_{11} - S_{22}^* \Delta| + |S_{21}S_{12}|} \\
+    \mu_2 &= \frac{1 - |S_{22}|^2}{|S_{22} - S_{11}^* \Delta| + |S_{21}S_{12}|}
+\end{align}
+
+If either, $\mu_1 > 1$ or $\mu_2 > 1$, then the network is unconditionally stable at the given frequency. To achieve stability, we added shunt inductors at the input and output of the network to provide high impedance to the input. In addition, we tuned the series resistor at the output to ensure good stability over the entire frequency range of interest albeit at some cost to the gain.
+
+With the input matching network designed, fixing $\Gamma_s $ using $ \Gamma_{opt}$ fixes $\Gamma_{out}$ since $\Gamma_{out} = S_{22} + \frac{S_{21}S_{12}\Gamma_{opt}}{1 - \Gamma_{opt} S_{11}}$. Thus we designed the output matching network to achieve this condition. 
+
+With these steps in the design of the matching network, we were able to achieve low noise performance at the desired frequency of 4 GHz.
 
 \section*{LNA Design}\label{sec:design}
+Based on the steps discussed in the introduction, we first checked $T_{min}$ for each bias condition for the transistor to select the one that gave the best noise performance. We selected the 2V 6 mA bias BJT because it had the lowest $T_{min} = 47.24 K$ at 4 GHz.
 
-\begin{itemize}
-    \item selected the 2V 6 mA bias BJT because it had the lowest $T_{min} = 47.24 K$ at 4 GHz.
-
-    \item made bias network, choosing $R_B = 45000 k \Omega$ and $R_c = 10 \Omega$. Placed large bias resistors close to $V_{cc}$ instead of next to the input of the transistor to prevent resonances between the resistor and the inductors in the network. Ideally should be placed close to minimize noise. See figure \ref{fig:dcnet}
+Once the selection was made, we designed the bias network, choosing $R_B = 45 k \Omega$ and $R_c = 10 \Omega$ as shown in figure \ref{fig:dcnet}. The transistor .s2p file specified a bias voltage of 2V at output and a bias current of 5.96 mA with $V_BE = 0.7914 V, I_B = 0.0178 mA$. Using 15 $\Omega$ at the collector gives $V_{cc} = 2.1 V$ and a bias resistance of $R_B = 45 k \Omega$. We placed large bias resistors close to $V_{cc}$ instead of next to the input of the transistor to prevent resonances between the resistor and the inductors in the network. This differs from the ideal case where we would place the shunt bias resistors as close as possible to the input to minimize the noise.
 
     \begin{figure*}[!htbp]
         \centering
@@ -45,9 +58,7 @@ Talk about the steps involved in designing a good low noise amplifier.
         \label{fig:dcnet}
     \end{figure*}
 
-    \item changed all the microstrip widths to 21 mils and used the lengths specified in the diagram.
-
-    \item added 5.6 nH inductors to the base and collector to improve stability. Using the .s2p files checked to ensure that there were no self-resonances in the region of interest. Had great stability above 2.5 GHz. See figure \ref{fig:LNAnet}, \ref{fig:stability}
+In addition, we changed all the microstrip widths to 21 mils and used the lengths specified in the lab guide. We then added 5.6 nH inductors to the base and collector to improve stability. This was done while ensuring that we did not change $T_{min}$ significantly by doing so. Using the .s2p files for the inductors, we checked to ensure that there were no self-resonances in the region of interest. Had great stability above 2.5 GHz. See figure \ref{fig:LNAnet}, \ref{fig:stability}
 
     \begin{figure*}[!htbp]
         \centering
@@ -63,7 +74,7 @@ Talk about the steps involved in designing a good low noise amplifier.
     \label{fig:stability}
     \end{figure}
 
-    \item Designed the input matching network, by choosing $\Gamma_s = \Gamma_{opt}$ as determined for our choice of bias and stability network for the amplifier. The network designed in MWO. And the schematic is shown in figure \ref{fig:inputnet}
+The input matching network was then designed, by choosing $\Gamma_s = \Gamma_{opt}$ as determined for our choice of bias and stability network for the amplifier. The schematic shown in figure \ref{fig:inputnet} shows our choice of lumped element series L and shunt C for this matching network.
 
     \begin{figure*}[!htbp]
     \centering
@@ -72,7 +83,7 @@ Talk about the steps involved in designing a good low noise amplifier.
     \label{fig:inputnet}
     \end{figure*}
 
-    \item Designed the output matching network based on the value of $\Gamma_{in} = \Gamma_{opt}$ which fixes the value of $\Gamma_l$. The output matching network is shown in figure \ref{fig:outputnet}. The small resistor at the output of the amplifier was set to $30 \Omega$ for stability of the network at a slight cost to the gain of the system.
+Designed the output matching network based on the value of $\Gamma_{in} = \Gamma_{opt}$ which fixes the value of $\Gamma_l$. The output matching network is shown in figure \ref{fig:outputnet}. The small resistor at the output of the amplifier was set to $30 \Omega$ for stability of the network at a slight cost to the gain of the system.
 
     \begin{figure*}[!htbp]
     \centering
@@ -81,9 +92,9 @@ Talk about the steps involved in designing a good low noise amplifier.
     \label{fig:outputnet}
     \end{figure*}
 
-    \item Design noise temperature $T_e = 58.35 K$ at 4 GHz. Only slightly above the minimum noise temperature for the choice of transistor.
+Design noise temperature $T_e = 58.35 K$ at 4 GHz. Only slightly above the minimum noise temperature for the choice of transistor.
 
-\end{itemize}
+\FloatBarrier
 
 \section*{Lab Testing}
 
@@ -125,6 +136,7 @@ Talk about the steps involved in designing a good low noise amplifier.
 
 \end{itemize}
 
+\FloatBarrier
 \subsection{Noise Measurements}
 
 \begin{itemize}
