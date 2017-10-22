@@ -1,4 +1,4 @@
-\documentclass[twocolumn, aps, apl]{revtex4-1}
+\documentclass[twocolumn, aps, floatfix]{revtex4-1}
 
 \usepackage{graphicx}
 \usepackage{fancyhdr}
@@ -25,7 +25,7 @@ The input matching network is chosen to minimize the noise power in the amplifie
     F = 1 + \frac{T_e}{T_0}.
 \end{equation} 
 
-The noise in the amplifier can be characterized using three parameters, $T_{min}, N \textrm{and} \Gamma_{opt}$. $T_{min}$, is the minimum achievable noise temperature for the transistor design. N is a scaling factor that weights the noise contribution due to the mismatch between the amplifier and the input network. Lastly, $\Gamma_{opt}$ is the reflection coefficient of the source that minimizes the noise in the system. Using these three parameters, we can express the effective temperature of the amplifier as 
+The noise in the amplifier can be characterized using three parameters, $T_{min},\ N \textrm{and}\ \Gamma_{opt}$. $T_{min}$, is the minimum achievable noise temperature for the transistor design. N is a scaling factor that weights the noise contribution due to the mismatch between the amplifier and the input network. Lastly, $\Gamma_{opt}$ is the reflection coefficient of the source that minimizes the noise in the system. Using these three parameters, we can express the effective temperature of the amplifier as 
 
 \begin{equation}
     T_e = T_{min} + 4 N T_0 \frac{|\Gamma_s - \Gamma_{opt}|^2}{\left(1 - |\Gamma_s|^2\right)\left(1 - |\Gamma_{opt}|^2\right)}.
@@ -69,7 +69,7 @@ In addition, we changed all the microstrip widths to 21 mils and used the length
 
     \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.3]{stability.png}
+    \includegraphics[scale=0.40]{stability.png}
     \caption{A plot of the stability parameters, $\mu_1, \mu_2$ of the network. We have good stability in region where either $\mu_1 > 1$ or $\mu_2 > 1$. }
     \label{fig:stability}
     \end{figure}
@@ -98,10 +98,7 @@ Design noise temperature $T_e = 58.35 K$ at 4 GHz. Only slightly above the minim
 
 \section*{Lab Testing}
 
-\begin{itemize}
-    \item populated the board with all the necessary capacitors, inductors, connectors and resistors as well as the BJT. Soldered all the components onto the board. Added a 10pF DC block to the RF input of the network because the Noise Figure Analyzer is not ac coupled. 
-
-    \item Calibrated the VNA at -30.0 dBm input power and measured the S parameters of the amplifier circuit. Setup see figure \ref{fig:ampimg}. OVP at 2.50V and OCP at 0.01 A. See figure \ref{fig:ampSparams}.
+First, we populated the board with all the necessary capacitors, inductors, connectors and resistors as well as the BJT. Soldered all the components onto the board. Added a 10pF DC block to the RF input of the network because the Noise Figure Analyzer is not ac coupled. The VNA was calibrated at -30.0 dBm input power and used to measure the S parameters of the amplifier circuit. For the setup used in the measurement, see figure \ref{fig:ampimg}. The OVP was at 2.50V and OCP at 0.01 A. The measured S parameters are shown in figure \ref{fig:ampSparams}.
 
     \begin{figure}[!htbp]
     \centering
@@ -112,12 +109,12 @@ Design noise temperature $T_e = 58.35 K$ at 4 GHz. Only slightly above the minim
 
     \begin{figure}[!htbp]
     \centering
-    \includegraphics[scale=0.3]{amp_S_params.png}
+    \includegraphics[scale=0.4]{amp_S_params.png}
     \caption{Measured S parameters of the amplifier at -30.0 dBm input power.}
     \label{fig:ampSparams}
     \end{figure}
 
-    \item Recalibrated the VNA to a -5.0 dBm input power level for better measurements of the filter response. Setup see figure \ref{fig:filterimg}. Measured the S parameters of the filter. See figure \ref{fig:filterSparams}.
+ For the filter measurements, we recalibrated the VNA to a -5.0 dBm input power level to better measurements of skirts of the low pass filter response. An image of the setup is available in figure \ref{fig:filterimg}. The measured S parameters of the filter are given in figure \ref{fig:filterSparams}.
 
     \begin{figure}[!htbp]
     \centering
@@ -132,9 +129,6 @@ Design noise temperature $T_e = 58.35 K$ at 4 GHz. Only slightly above the minim
     \caption{Measured S parameters of the filter at -5.0 dBm input power.}
     \label{fig:filterSparams}
     \end{figure}
-
-
-\end{itemize}
 
 \FloatBarrier
 \subsection{Noise Measurements}
@@ -171,12 +165,12 @@ Design noise temperature $T_e = 58.35 K$ at 4 GHz. Only slightly above the minim
 
 \end{itemize}
 
+\FloatBarrier
 \section*{Analysis}
 
-\begin{itemize}
-    \item The simulated and measured noise temperature of the LNA showed strong deviations \ref{fig:amptempcomparison}. The shape of the noise temperature profile as a function of the frequency was the same, but elevated at higher frequencies. Given more time, I would have attempted to account for noise contributions from the passives in the network as well as from the power supply. Maybe something else but need ideas!!!
+The simulated and measured noise temperature of the LNA showed strong deviations as shown in figure \ref{fig:amptempcomparison}. While the shape of the noise temperature profile as a function of the frequency was the similar between simulations and measurement, it was highly elevated at higher frequencies. Given more time, I would have optimized my network by increasing the gain at 4 GHz. Higher gain would make the circuit less susceptible to the noise from the power supply which was likely responsible for the excess noise we measured. In addition, I would have attempted to model the noise contributions from all the passives in the network to ensure that they were at acceptible levels. It is likely that MWO does not adequately capture the noise in all the passives used in the biasing and matching circuits.
 
-    \item The change in noise temperature between the filter at input and filter at output cases can be modelled well and with good accuracy. The Friis formula captures how to calculate the effective noise factor of a system based on the noise factors of the constituent subsystems. Given $F_i$ as the noise factor for the $i$th subsystem and $G_i$ as the gain of that subsystem, we can state the Friis formula as
+The change in noise temperature between the filter at input and filter at output cases can be modelled well and with good accuracy. The Friis formula captures how to calculate the effective noise factor of a system based on the noise factors of the constituent subsystems. Given $F_i$ as the noise factor for the $i$th subsystem and $G_i$ as the gain of that subsystem, we can state the Friis formula as
 
     \begin{equation}
         F_{total} - 1 = (F_1 - 1) + \frac{F_2 - 1}{G_1} + \frac{F_3 - 1}{G_1 \times G_2} + \ldots.  
@@ -216,9 +210,9 @@ Design noise temperature $T_e = 58.35 K$ at 4 GHz. Only slightly above the minim
     A comparison of these two equations, immediately shows why we have a higher effective temperature when the filter is at the output. Since the filter is a passive device, its gain is always less than 1 and as a result, $L > 1$. If the amplifier has a high enough gain, then the gain factor in the denominator makes that term very small and thus for the filter behind case, $T_{TOT} \approx T_{LNA}$. For the filter ahead case, we instead have $T_{TOT} \approx L \times T_{LNA}$ which would be bigger since L is greater than 1.
 
 
-    \item Simulations of the amplifier circuit with the filter at the input show an expected equivalent temperature of 100.2 K up from about 60.86 K. This deviation is partly due to the mismatch at the input introduced by the filter. In the filter band, the filter has a very small reflection coefficient. Talk about this some more.
+Simulations of the amplifier circuit with the filter at the input show an expected equivalent temperature of 100.2 K up from about 60.86 K. This deviation is partly due to the mismatch at the input introduced by the filter. In the filter band, the filter has a very small reflection coefficient. The cutoff frequency of the filter is at about 5.6 GHz. Below this frequency, there is little mismatch introduced by the filter and there is better matching between the input and the amplifier. However, above the cutoff, the filter itself has a large reflection coefficient which ruins the design match for the input network. Thus we get a contribution to a higher equivalent noise temperature due to the mismatch.
 
-    \item Adding shunt capacitors and series inductors at the ports to model parasitics gives a slightly better match in the frequency range 1.5 - 4.5 GHz. In addition, slight changes to the values of the matching network help create a better match between simulation and measured behavior. However, a good match could not be found over the entire frequency range of interest. Improvements at low frequencies led to a much worse match at high frequencies. We can thus account well for the behavior close to the design frequency of 4 GHz but not at much higher frequencies. See \ref{fig:changedampsims}
+Adding shunt capacitors and series inductors at the ports to model parasitics gives a slightly better match in the frequency range 1.5 - 4.5 GHz. In addition, slight changes to the values of the matching network help create a better match between simulation and measured behavior. However, a good match could not be found over the entire frequency range of interest. Improvements at low frequencies led to a much worse match at high frequencies. We can thus account well for the behavior close to the design frequency of 4 GHz but not at much higher frequencies. See \ref{fig:changedampsims}
 
     \begin{figure}[!htbp]
     \centering
@@ -227,9 +221,8 @@ Design noise temperature $T_e = 58.35 K$ at 4 GHz. Only slightly above the minim
     \label{fig:changedampsims}
     \end{figure}
 
-\end{itemize}
-
+\FloatBarrier
 \section*{Conclusions}
 
-This lab gave me good experience with the design considerations in making a good low noise amplifier. I have a better appreciation of the difficulties inherent in identifying all possible noise sources to try and achieve some desired noise specifications. There was also plenty of lab experience in soldering and hopefully the time put in now will pay off in future labs and projects. 
+This lab gave me good experience with the design considerations in making a good low noise amplifier. I have a better appreciation of the difficulties inherent in identifying all possible noise sources to try and achieve some desired noise specifications. During the design, we had to weigh different factors; gain, stability and noise performance to try and achieve a good balance between all three. While at the end, our circuit did not perform as well as expected, we were still able to get good performance and discuss some of the possible causes of the lower noise performance.
 \end{document}

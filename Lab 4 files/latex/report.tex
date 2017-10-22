@@ -1,0 +1,92 @@
+\documentclass[twocolumn, aps, floatfix]{revtex4-1}
+
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{enumerate}
+\usepackage{subcaption}
+\usepackage{textcomp}
+\usepackage{placeins}
+\usepackage{blindtext}
+
+\begin{document}
+\title{Lab 4. Balanced Mixers }
+\author{Albert Wandui}
+\affiliation{EE 152: High Frequency Systems Lab.}
+\maketitle
+
+\section*{Introduction}\label{sec:introduction}
+
+\begin{itemize}
+    \item What is a mixer
+
+    \item Balanced mixers
+
+    \item Image rejection in mixers - though not directly relevant here
+
+\end{itemize}
+
+\section*{Mixer Design}\label{sec:design}
+
+\begin{itemize}
+    \item designing the radial stubs
+
+    \item Diode package artwork
+
+    \item Branch Line Hybrid for driving the matched diode pair
+
+    \item Matching network for the diode - BL interface
+
+    \item Completed artwork
+    
+\end{itemize}
+
+\FloatBarrier
+
+\section*{Lab Testing}
+
+\begin{itemize}
+    \item LO and RF callibration. Constant offset
+
+    \item Setup the mixer circuit - show the photo
+
+    \item Initial LO to IF isolation measurement
+
+    \item RF to IF isolation measurement
+
+    \item DC to 200 MHz IF measurements - Higher conversion loss at very low frequencies close to 0 Hz
+
+    \item Showed that the mixer is very broadband
+
+    \item changed the input power of LO to find the compression point
+
+    \item Step 16. Linearity of mixer to input RF power
+
+    \item step 17
+
+    \item step 18
+    
+\end{itemize}
+
+
+\FloatBarrier
+\section*{Analysis}
+
+\begin{itemize}
+    \item Conversion Loss vs Frequency from RF sweep
+
+    \item conversion loss vs LO power. Find the optimum LO drive power. Comparison to datasheet
+
+    \item Conversion loss vs RF power. Is there a 1dB compression point? 
+
+    \item Plot the LO leakage and harmonics. Isolation at fundamental? dBc of the first harmonic?
+
+    \item Plot the RF leakage at the IF port. What is the RF isolation at the IF port?
+    
+\end{itemize}
+
+\section*{Conclusions}
+
+This lab gave me good experience with the design considerations in making a good low noise amplifier. I have a better appreciation of the difficulties inherent in identifying all possible noise sources to try and achieve some desired noise specifications. During the design, we had to weigh different factors; gain, stability and noise performance to try and achieve a good balance between all three. While at the end, our circuit did not perform as well as expected, we were still able to get good performance and discuss some of the possible causes of the lower noise performance.
+\end{document}
