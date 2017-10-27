@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 OCT 2017 07:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.8.31)  24 OCT 2017 09:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**report.tex
+**./report.tex
 (./report.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex/revtex4-1.cls
+LaTeX2e <2017-04-15>
+Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
+(c:/texlive/2017/texmf-dist/tex/latex/revtex/revtex4-1.cls
 Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
 ex4/ for documentation)
  Copyright (c) 2009 The American Physical Society.
@@ -66,7 +66,7 @@ Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
 \widetext@top=\box39
 \widetext@bot=\box40
 Class revtex4-1 Info: Selecting society aps on input line 7542.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex/aps4-1.rtx
+(c:/texlive/2017/texmf-dist/tex/latex/revtex/aps4-1.rtx
 File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
 mentation)
 Class revtex4-1 Info: RevTeX society APS selected on input line 31.
@@ -78,19 +78,19 @@ Class revtex4-1 Info: APS journal PRA selected on input line 7545.
 
 Class revtex4-1 Warning: No type size specified, using default 10.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
+(c:/texlive/2017/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
 File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
 documentation)
 Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/textcase/textcase.sty
+(c:/texlive/2017/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+(c:/texlive/2017/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/natbib/natbib.sty
+(c:/texlive/2017/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip44
 \bibsep=\skip45
@@ -99,58 +99,52 @@ LaTeX Info: Redefining \cite on input line 694.
 )
 Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/revtex/revsymb4-1.sty
+(c:/texlive/2017/texmf-dist/tex/latex/revtex/revsymb4-1.sty
 Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
 or documentation)
 LaTeX Info: Redefining \REV@mathfrak on input line 119.
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+(c:/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(c:/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count95
+(c:/texlive/2017/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen102
 \Gin@req@width=\dimen103
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip46
-\f@ncyO@elh=\skip47
-\f@ncyO@erh=\skip48
-\f@ncyO@olh=\skip49
-\f@ncyO@orh=\skip50
-\f@ncyO@elf=\skip51
-\f@ncyO@erf=\skip52
-\f@ncyO@olf=\skip53
-\f@ncyO@orf=\skip54
+(c:/texlive/2017/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip46
+\f@nch@O@elh=\skip47
+\f@nch@O@erh=\skip48
+\f@nch@O@olh=\skip49
+\f@nch@O@orh=\skip50
+\f@nch@O@elf=\skip51
+\f@nch@O@erf=\skip52
+\f@nch@O@olf=\skip53
+\f@nch@O@orf=\skip54
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(c:/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(c:/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks17
 \symAMSa=\mathgroup4
@@ -160,52 +154,52 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 LaTeX Info: Redefining \frak on input line 111.
 LaTeX Info: Redefining \Bbb on input line 113.
 ))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
 \@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen104
 )
-LaTeX Info: Redefining \text on input line 39.
+LaTeX Info: Redefining \text on input line 28.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen105
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
+(c:/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count96
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count97
-\leftroot@=\count98
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count99
-\DOTSCASE@=\count100
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box41
 \strutbox@=\box42
 \big@size=\dimen106
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count101
-\c@MaxMatrixCols=\count102
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
 \dotsspace@=\muskip11
-\c@parentequation=\count103
-\dspbrk@lvl=\count104
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
 \tag@help=\toks19
-\row@=\count105
-\column@=\count106
-\maxfields@=\count107
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
 \andhelp@=\toks20
 \eqnshift@=\dimen107
 \alignsep@=\dimen108
@@ -217,15 +211,15 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \multlinegap=\skip56
 \multlinetaggap=\skip57
 \mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+(c:/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
+(c:/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen113
 \captionmargin@=\dimen114
 \captionwidth=\dimen115
@@ -247,18 +241,18 @@ onskip \begingroup \small \rmfamily \sbox \@tempboxa {\let \\\heading@cr \@make
 lushing \let \footnote \@footnotemark@gobble \@make@capt@title {#1}{#2}\par \en
 dgroup }{\global \@minipagefalse \hb@xt@ \hsize {\hfil \unhbox \@tempboxa \hfil
  }}\endgroup \vskip \belowcaptionskip .
-\c@ContinuedFloat=\count108
-) (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/enumerate.sty
-Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
+\c@ContinuedFloat=\count107
+) (c:/texlive/2017/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks23
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
-\c@subfigure=\count109
-\c@subtable=\count110
+(c:/texlive/2017/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+\c@subfigure=\count108
+\c@subtable=\count109
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+(c:/texlive/2017/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
 (textcomp)               4 = 5 + \texteuro
@@ -272,7 +266,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1enc.def
+(c:/texlive/2017/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 334.
@@ -339,33 +333,33 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/placeins/placeins.sty
+(c:/texlive/2017/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/blindtext/blindtext.sty
+(c:/texlive/2017/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/xspace.sty
+(c:/texlive/2017/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count111
-\c@Blindtext=\count112
-\c@blind@countparstart=\count113
-\blind@countxx=\count114
-\blindtext@numBlindtext=\count115
-\blind@countyy=\count116
-\c@blindlist=\count117
-\c@blindlistlevel=\count118
-\c@blindlist@level=\count119
-\blind@listitem=\count120
-\c@blind@listcount=\count121
-\c@blind@levelcount=\count122
-\blind@mathformula=\count123
-\blind@Mathformula=\count124
-\c@blind@randomcount=\count125
-\c@blind@randommax=\count126
-\c@blind@pangramcount=\count127
-\c@blind@pangrammax=\count128
+\c@blindtext=\count110
+\c@Blindtext=\count111
+\c@blind@countparstart=\count112
+\blind@countxx=\count113
+\blindtext@numBlindtext=\count114
+\blind@countyy=\count115
+\c@blindlist=\count116
+\c@blindlistlevel=\count117
+\c@blindlist@level=\count118
+\blind@listitem=\count119
+\c@blind@listcount=\count120
+\c@blind@levelcount=\count121
+\blind@mathformula=\count122
+\blind@Mathformula=\count123
+\c@blind@randomcount=\count124
+\c@blind@randommax=\count125
+\c@blind@pangramcount=\count126
+\c@blind@pangrammax=\count127
 )
 Class revtex4-1 Info: Patching LaTeX tabular. on input line 14.
 Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 14.
@@ -390,69 +384,78 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 14.
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ts1cmr.fd
+
+(c:/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 14.
 
-(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+(c:/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count129
+\scratchcounter=\count128
 \scratchdimen=\dimen120
 \scratchbox=\box43
-\nofMPsegments=\count130
-\nofMParguments=\count131
+\nofMPsegments=\count129
+\nofMParguments=\count130
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count132
+\MPscratchCnt=\count131
 \MPscratchDim=\dimen121
-\MPnumerator=\count133
-\makeMPintoPDFobject=\count134
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
 \everyMPtoPDFconversion=\toks25
-) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
+) (c:/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(c:/texlive/2017/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(c:/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(c:/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
+(grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(c:/texlive/2017/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -462,165 +465,224 @@ Package caption Info: End \AtBeginDocument code.
 
 LaTeX Font Info:    Try loading font information for U+msa on input line 24.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+(c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 24.
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+(c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <radial_stub.png, id=1, 327.47343pt x 255.20343pt>
 File: radial_stub.png Graphic file (type png)
- <use radial_stub.png>
-Package pdftex.def Info: radial_stub.png used on input line 48.
-(pdftex.def)             Requested size: 229.22984pt x 178.64117pt.
+<use radial_stub.png>
+Package pdftex.def Info: radial_stub.png  used on input line 48. on input line 
+48.
+Package pdftex.def Info: Requested size: 229.22984pt x 178.64117pt on input lin
+e 48.
+<filter_Sparams.png, id=2, 650.43pt x 453.94594pt>
+File: filter_Sparams.png Graphic file (type png)
+<use filter_Sparams.png>
+Package pdftex.def Info: filter_Sparams.png  used on input line 54. on input li
+ne 54.
+Package pdftex.def Info: Requested size: 260.16739pt x 181.57515pt on input lin
+e 54.
 
-[1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (14.16739pt too wide) in paragraph at lines 54--55
+ [][] 
+ []
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 54.
+[1{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 60.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 54.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 60.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-<diode_circuit.png, id=18, 650.43pt x 337.26pt>
+<diode_circuit.png, id=19, 650.43pt x 337.26pt>
 File: diode_circuit.png Graphic file (type png)
- <use diode_circuit.png>
-Package pdftex.def Info: diode_circuit.png used on input line 56.
-(pdftex.def)             Requested size: 260.16739pt x 134.9016pt.
+<use diode_circuit.png>
+Package pdftex.def Info: diode_circuit.png  used on input line 62. on input lin
+e 62.
+Package pdftex.def Info: Requested size: 260.16739pt x 134.9016pt on input line
+ 62.
 
-Overfull \hbox (14.16739pt too wide) in paragraph at lines 56--57
+Overfull \hbox (14.16739pt too wide) in paragraph at lines 62--63
  [][] 
  []
 
-<full_circuit.png, id=19, 1189.44376pt x 581.17125pt>
+<diode_Sparams.png, id=20, 650.43pt x 453.94594pt>
+File: diode_Sparams.png Graphic file (type png)
+<use diode_Sparams.png>
+Package pdftex.def Info: diode_Sparams.png  used on input line 68. on input lin
+e 68.
+Package pdftex.def Info: Requested size: 260.16739pt x 181.57515pt on input lin
+e 68.
+
+Overfull \hbox (14.16739pt too wide) in paragraph at lines 68--69
+ [][] 
+ []
+
+<diode_package_circuit.png, id=21, 1081.03876pt x 529.22719pt>
+File: diode_package_circuit.png Graphic file (type png)
+<use diode_package_circuit.png>
+Package pdftex.def Info: diode_package_circuit.png  used on input line 74. on i
+nput line 74.
+Package pdftex.def Info: Requested size: 270.25902pt x 132.30647pt on input lin
+e 74.
+
+Overfull \hbox (24.25902pt too wide) in paragraph at lines 74--75
+ [][] 
+ []
+
+[2 <./radial_stub.png> <./filter_Sparams.png> <./diode_circuit.png> <./diode_Sp
+arams.png> <./diode_package_circuit.png>]
+<BranchLine_Sparams.png, id=25, 650.43pt x 453.94594pt>
+File: BranchLine_Sparams.png Graphic file (type png)
+<use BranchLine_Sparams.png>
+Package pdftex.def Info: BranchLine_Sparams.png  used on input line 86. on inpu
+t line 86.
+Package pdftex.def Info: Requested size: 260.16739pt x 181.57515pt on input lin
+e 86.
+
+Overfull \hbox (14.16739pt too wide) in paragraph at lines 86--87
+ [][] 
+ []
+
+<full_circuit.png, id=26, 1189.44376pt x 581.17125pt>
 File: full_circuit.png Graphic file (type png)
- <use full_circuit.png>
-Package pdftex.def Info: full_circuit.png used on input line 66.
-(pdftex.def)             Requested size: 547.15077pt x 267.34201pt.
+<use full_circuit.png>
+Package pdftex.def Info: full_circuit.png  used on input line 92. on input line
+ 92.
+Package pdftex.def Info: Requested size: 547.15077pt x 267.34201pt on input lin
+e 92.
 
-Overfull \hbox (37.15077pt too wide) in paragraph at lines 66--67
+Overfull \hbox (37.15077pt too wide) in paragraph at lines 92--93
  [][] 
  []
 
-<setup.jpg, id=20, 4047.12pt x 3035.34pt>
+<setup.jpg, id=27, 4047.12pt x 3035.34pt>
 File: setup.jpg Graphic file (type jpg)
- <use setup.jpg>
-Package pdftex.def Info: setup.jpg used on input line 80.
-(pdftex.def)             Requested size: 202.36786pt x 151.7759pt.
-
-<oscilloscope.jpeg, id=21, 3276.24pt x 2457.18pt>
+<use setup.jpg>
+Package pdftex.def Info: setup.jpg  used on input line 106. on input line 106.
+Package pdftex.def Info: Requested size: 202.36786pt x 151.7759pt on input line
+ 106.
+<oscilloscope.jpeg, id=28, 3276.24pt x 2457.18pt>
 File: oscilloscope.jpeg Graphic file (type jpg)
- <use oscilloscope.jpeg>
-Package pdftex.def Info: oscilloscope.jpeg used on input line 87.
-(pdftex.def)             Requested size: 196.56592pt x 147.42444pt.
-
-[2 <./radial_stub.png> <./diode_circuit.png>] [3 <./full_circuit.png> <./setup.
-jpg> <./oscilloscope.jpeg>]
-<DC_to_200MHz.pdf, id=28, 663.77968pt x 631.33063pt>
+<use oscilloscope.jpeg>
+Package pdftex.def Info: oscilloscope.jpeg  used on input line 113. on input li
+ne 113.
+Package pdftex.def Info: Requested size: 196.56592pt x 147.42444pt on input lin
+e 113.
+[3 <./BranchLine_Sparams.png>] [4 <./full_circuit.png> <./setup.jpg> <./oscillo
+scope.jpeg>]
+<DC_to_200MHz.pdf, id=35, pagebox=cropbox, 663.77968pt x 631.33063pt>
 File: DC_to_200MHz.pdf Graphic file (type pdf)
- <use DC_to_200MHz.pdf>
-Package pdftex.def Info: DC_to_200MHz.pdf used on input line 106.
-(pdftex.def)             Requested size: 232.32635pt x 220.96902pt.
-
-<DC_to_200MHz_zoomed.pdf, id=29, 664.84665pt x 623.51823pt>
+<use DC_to_200MHz.pdf>
+Package pdftex.def Info: DC_to_200MHz.pdf  used on input line 132. on input lin
+e 132.
+Package pdftex.def Info: Requested size: 232.32635pt x 220.96902pt on input lin
+e 132.
+<DC_to_200MHz_zoomed.pdf, id=36, pagebox=cropbox, 664.84665pt x 623.51823pt>
 File: DC_to_200MHz_zoomed.pdf Graphic file (type pdf)
-
 <use DC_to_200MHz_zoomed.pdf>
-Package pdftex.def Info: DC_to_200MHz_zoomed.pdf used on input line 112.
-(pdftex.def)             Requested size: 232.6998pt x 218.23465pt.
-
-<CL_vs_RF_frequency.pdf, id=30, 659.09047pt x 649.47563pt>
+Package pdftex.def Info: DC_to_200MHz_zoomed.pdf  used on input line 138. on in
+put line 138.
+Package pdftex.def Info: Requested size: 232.6998pt x 218.23465pt on input line
+ 138.
+<CL_vs_RF_frequency.pdf, id=37, pagebox=cropbox, 659.09047pt x 649.47563pt>
 File: CL_vs_RF_frequency.pdf Graphic file (type pdf)
-
 <use CL_vs_RF_frequency.pdf>
-Package pdftex.def Info: CL_vs_RF_frequency.pdf used on input line 120.
-(pdftex.def)             Requested size: 230.68512pt x 227.31987pt.
-
-<IF_Power_vs_LO_power.pdf, id=31, 645.76634pt x 623.51823pt>
+Package pdftex.def Info: CL_vs_RF_frequency.pdf  used on input line 146. on inp
+ut line 146.
+Package pdftex.def Info: Requested size: 230.68512pt x 227.31987pt on input lin
+e 146.
+<IF_Power_vs_LO_power.pdf, id=38, pagebox=cropbox, 645.76634pt x 623.51823pt>
 File: IF_Power_vs_LO_power.pdf Graphic file (type pdf)
-
 <use IF_Power_vs_LO_power.pdf>
-Package pdftex.def Info: IF_Power_vs_LO_power.pdf used on input line 128.
-(pdftex.def)             Requested size: 226.0216pt x 218.23465pt.
- [4 <./DC_to_200MHz.pdf> <./DC_to_200MHz_zoomed.pdf
+Package pdftex.def Info: IF_Power_vs_LO_power.pdf  used on input line 154. on i
+nput line 154.
+Package pdftex.def Info: Requested size: 226.0216pt x 218.23465pt on input line
+ 154.
+ [5 <./DC_to_200MHz.pdf> <./DC_to_200MHz_zoomed.pdf
 
-pdfTeX warning: pdflatex (file ./DC_to_200MHz_zoomed.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./DC_to_200MHz_zoomed.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
 > <./CL_vs_RF_frequency.pdf
 
-pdfTeX warning: pdflatex (file ./CL_vs_RF_frequency.pdf): PDF inclusion: multip
-le pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./CL_vs_RF_frequency.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 134.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 160.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 134.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 160.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-<compression_point_fitted.pdf, id=78, 627.5012pt x 623.51823pt>
+<compression_point_fitted.pdf, id=85, pagebox=cropbox, 627.5012pt x 623.51823pt
+>
 File: compression_point_fitted.pdf Graphic file (type pdf)
-
 <use compression_point_fitted.pdf>
-Package pdftex.def Info: compression_point_fitted.pdf used on input line 137.
-(pdftex.def)             Requested size: 219.62871pt x 218.23465pt.
-
-<DC_to_18GHz.pdf, id=79, 664.20607pt x 631.33063pt>
+Package pdftex.def Info: compression_point_fitted.pdf  used on input line 163. 
+on input line 163.
+Package pdftex.def Info: Requested size: 219.62871pt x 218.23465pt on input lin
+e 163.
+<DC_to_18GHz.pdf, id=86, pagebox=cropbox, 664.20607pt x 631.33063pt>
 File: DC_to_18GHz.pdf Graphic file (type pdf)
- <use DC_to_18GHz.pdf>
-Package pdftex.def Info: DC_to_18GHz.pdf used on input line 146.
-(pdftex.def)             Requested size: 232.4756pt x 220.96902pt.
-
-<RF_leakage.pdf, id=80, 679.20609pt x 631.33063pt>
+<use DC_to_18GHz.pdf>
+Package pdftex.def Info: DC_to_18GHz.pdf  used on input line 172. on input line
+ 172.
+Package pdftex.def Info: Requested size: 232.4756pt x 220.96902pt on input line
+ 172.
+<RF_leakage.pdf, id=87, pagebox=cropbox, 679.20609pt x 631.33063pt>
 File: RF_leakage.pdf Graphic file (type pdf)
- <use RF_leakage.pdf>
-Package pdftex.def Info: RF_leakage.pdf used on input line 154.
-(pdftex.def)             Requested size: 237.7257pt x 220.96902pt.
-
+<use RF_leakage.pdf>
+Package pdftex.def Info: RF_leakage.pdf  used on input line 180. on input line 
+180.
+Package pdftex.def Info: Requested size: 237.7257pt x 220.96902pt on input line
+ 180.
 No file report.bbl.
-[5 <./IF_Power_vs_LO_power.pdf> <./compression_point_fitted.pdf
+[6 <./IF_Power_vs_LO_power.pdf> <./compression_point_fitted.pdf
 
-pdfTeX warning: pdflatex (file ./compression_point_fitted.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./compression_point_fitted.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
 > <./DC_to_18GHz.pdf
 
-pdfTeX warning: pdflatex (file ./DC_to_18GHz.pdf): PDF inclusion: multiple pdfs
- with page group included in a single page
->] [6 <./RF_leakage.pdf>] (./report.aux) ) 
+pdfTeX warning: pdflatex.exe (file ./DC_to_18GHz.pdf): PDF inclusion: multiple 
+pdfs with page group included in a single page
+>] [7 <./RF_leakage.pdf>] (./report.aux) ) 
 Here is how much of TeX's memory you used:
- 6274 strings out of 493089
- 90001 string characters out of 6134842
- 170875 words of memory out of 5000000
- 9667 multiletter control sequences out of 15000+600000
+ 6289 strings out of 492990
+ 90043 string characters out of 6136334
+ 167606 words of memory out of 5000000
+ 9750 multiletter control sequences out of 15000+600000
  7231 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,43p,1294b,308s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/f
-onts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2015/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2015/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2015/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti9.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
-msfonts/symbols/msbm10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/cm-super/sfrm1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/co
-urier/ucrr8a.pfb>
-Output written on report.pdf (6 pages, 4193599 bytes).
+ 41i,11n,43p,1296b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2017/texmf-dist/fonts/enc
+/dvips/cm-super/cm-super-ts1.enc}<c:/texlive/2017/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10
+.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2017/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2017/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
+9.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pf
+b><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texl
+ive/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on report.pdf (7 pages, 4248400 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
+ 169 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

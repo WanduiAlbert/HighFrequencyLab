@@ -42,7 +42,7 @@ In order to reduce the leakage of the LO and RF signals as well as their higher 
 
 The first step in our design was the construction of the filter network at the output to cutoff the LO and RF signals from leaking into the IF output of the mixer. The intuitive guiding principle for the design was to provide a short-circuit shunt stub at the LO and RF frequencies. The short circuited shunt network reflects the LO and RF power back into the mixer circuit reducing leakage at the output port. A short circuit shunt stub is easily achieved by using an open quarter wavelength stub at the output of the matched diodes. However, transmission line filters are usually very narrow band and effective only over a small frequency range. 
 
-To expand the bandwidth of the quarter wavelength filter, we flared out the ends of the line into a radial stubs on both sides of the main transmission line. To better define the reference plane at the junction of the stub with the main line, the stub narrowed out into the junction with an overlap region of width $W_g$ with the main transmission line. To optimize the performance of the radial stub filter, we tuned the three parameters of the filter; the radius of the stub R, $W_g$ and $\theta$, the opening angle of the radial sector of the filter. We found that the filter response was very sensitive to the value of R with larger values of R shifting the resonance of the filter to lower frequencies. For our final optimized circuit, we chose R = 178 mils, $\theta = 50$ \textdegree and $W_g = 50$ mils. This gave us an insertion loss (IL) of FIX THIS  at 5.9 GHz. The filter showed a broadband response with IL less than -3 dB over the frequency range FIX THIS . The circuit schematic for the radial stub is shown in figure \ref{fig:radialstub}. The filter response is also shown in figure FIX THIS .
+To expand the bandwidth of the quarter wavelength filter, we flared out the ends of the line into a radial stubs on both sides of the main transmission line. To better define the reference plane at the junction of the stub with the main line, the stub narrowed out into the junction with an overlap region of width $W_g$ with the main transmission line. To optimize the performance of the radial stub filter, we tuned the three parameters of the filter; the radius of the stub R, $W_g$ and $\theta$, the opening angle of the radial sector of the filter. We found that the filter response was very sensitive to the value of R with larger values of R shifting the resonance of the filter to lower frequencies. For our final optimized circuit, we chose R = 178 mils, $\theta = 50$ \textdegree and $W_g = 50$ mils. This gave us an insertion loss (IL) of -8.3 dB at 5.9 GHz. The filter showed a broadband response with IL less than -3 dB over the frequency range 3-11 GHz . The circuit schematic for the radial stub is shown in figure \ref{fig:radialstub}. The filter response is also shown in figure \ref{fig:radialparams} .
 
 \begin{figure}[!htbp]
     \includegraphics[scale=0.7]{radial_stub.png}
@@ -50,7 +50,13 @@ To expand the bandwidth of the quarter wavelength filter, we flared out the ends
     \label{fig:radialstub}
 \end{figure}
 
-With the output filter network designed and optimized, we then designed the artwork for the diode package. The datasheet for the HSMS-8202 Avago anti-parallel diodes strongly guided the design considerations. The diode package in this case has three output pins for which we designed three pads. The pads were 35 mils wide and 80 mils long for ease of connection of the diode circuit to the mixer network. The three pads wer made from short sections of transmission line on Rodgers 3210. The diode model in MWO was constructed from the equivalent linear model given in the data sheet. The self-bias resistance $R_j$ was set to 146 $\Omega$. The schematic is shown in figure \ref{fig:diodemodel}. 
+\begin{figure}[!htbp]
+    \includegraphics[scale=0.4]{filter_Sparams.png}
+    \caption{The S parameters of the radial filter stub}
+    \label{fig:radialparams}
+\end{figure}
+
+With the output filter network designed and optimized, we then designed the artwork for the diode package. The datasheet for the HSMS-8202 Avago anti-parallel diodes strongly guided the design considerations. The diode package in this case has three output pins for which we designed three pads. The pads were 35 mils wide and 80 mils long for ease of connection of the diode circuit to the mixer network. The three pads wer made from short sections of transmission line on Rodgers 3210. The diode model in MWO was constructed from the equivalent linear model given in the data sheet. The self-bias resistance $R_j$ was set to 146 $\Omega$. The schematic is shown in figure \ref{fig:diodemodel} with the simulated S parameters given in figure \ref{fig:diodeparams}. The diode package combining the two diode circuits into an equivalent matched diode pair is shown in figure \ref{fig:diodepackage}. 
 
 \begin{figure}[!htbp]
     \includegraphics[scale=0.4]{diode_circuit.png}
@@ -58,9 +64,29 @@ With the output filter network designed and optimized, we then designed the artw
     \label{fig:diodemodel}
 \end{figure}
 
-The diode model and the output filter network were then combined and simulated to obtain the reflection coefficient looking into the input of the network. We then designed input matching networks to bring the diode circuits to the 50 $\Omega$ impedance of the branch line coupler lines. The diode networks were decently matched even with no additional matching circuits at their input and small series FIX THIS inductors sufficed to provide all the input matching needed for the circuit.
+\begin{figure}[!htbp]
+    \includegraphics[scale=0.4]{diode_Sparams.png}
+    \caption{The S parameters of the linear equivalent diode circuit model.}
+    \label{fig:diodeparams}
+\end{figure}
 
-There was no additional design work for the Branch Line Coupler above the designs from Lab 2. In lab 2, we achieved coupling to port 3 of FIX THIS, insertion loss at port 2 of FIX THIS, and an isolation at port 4 of FIX THIS at 5.9 GHz. The response of the branch line circuit is shown in figure FIX THIS. With the branch line circuit completed, diode network and output and input matching subcircuits optimized, we combined all these parts into the full mixer network shown in figure \ref{fig:fullcircuit}.
+\begin{figure}[!htbp]
+    \includegraphics[scale=0.25]{diode_package_circuit.png}
+    \caption{The package model for the diode showing the two diode circuits connected with short transmission line sections.}
+    \label{fig:diodepackage}
+\end{figure}
+
+
+The diode model and the output filter network were then combined and simulated to obtain the reflection coefficient looking into the input of the network. We then designed input matching networks to bring the diode circuits to the 50 $\Omega$ impedance of the branch line coupler lines. The diode networks were well matched even with no additional matching circuits at their input. We decided to simply use 0 $\Omega$ resistors in place of any matching inductors.
+
+There was no additional design work for the Branch Line Coupler above the designs from Lab 2. In lab 2, we achieved coupling to port 3 of -3.32 dB, insertion loss at port 2 of -3.04 dB, and an isolation at port 4 of -24.55 dB at 5.9 GHz. The response of the branch line circuit is shown in figure \ref{fig:branchparams}. With the branch line circuit completed, diode network and output and input matching subcircuits optimized, we combined all these parts into the full mixer network shown in figure \ref{fig:fullcircuit}.
+
+
+\begin{figure}[!htbp]
+    \includegraphics[scale=0.4]{BranchLine_Sparams.png}
+    \caption{The S parameters of the Branch Line Coupler Hybrid for the mixer.}
+    \label{fig:branchparams}
+\end{figure}
 
 \begin{figure*}[!htbp]
     \includegraphics[scale=0.46]{full_circuit.png}
