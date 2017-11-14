@@ -2,6 +2,7 @@
 
 import numpy as np
 import sys
+from math import pi
 
 data_dir = './Spar_BFU730F'
 save_dir = './LAB DATA/'
@@ -45,11 +46,12 @@ def convertdata(data):
        ("S21", np.complex128),   ("S22", np.complex128), ("S23", np.complex128),\
        ("S31", np.complex128), ("S32", np.complex128), ("S33", np.complex128)] # data type for the intermediate files
     
+    # Recall the angles are in degrees. Need to convert back to radians.
     freq = data['freq']
-    S11 = data["S11-mag"] * np.exp(I * data["S11-arg"])
-    S12 = data["S12-mag"] * np.exp(I * data["S12-arg"])
-    S21 = data["S21-mag"] * np.exp(I * data["S21-arg"])
-    S22 = data["S22-mag"] * np.exp(I * data["S22-arg"])
+    S11 = data["S11-mag"] * np.exp(I * data["S11-arg"] * pi/180)
+    S12 = data["S12-mag"] * np.exp(I * data["S12-arg"] * pi/180)
+    S21 = data["S21-mag"] * np.exp(I * data["S21-arg"] * pi/180)
+    S22 = data["S22-mag"] * np.exp(I * data["S22-arg"] * pi/180)
 
 
 
@@ -60,7 +62,7 @@ def convertdata(data):
 
 def splitter(c_array):
     # Splits an array of complex values into the magnitude and phase parts
-    return [np.abs(c_array), np.angle(c_array) * 180/np.pi]
+    return [np.abs(c_array), np.angle(c_array) * 180/pi]
 
 def reformatter(data):
     final = [data['freq']]

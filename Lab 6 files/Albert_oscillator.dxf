@@ -1,0 +1,2948 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1009
+  9
+$INSUNITS
+  70
+9
+  9
+$EXTMIN
+  10
+1333.565
+  20
+-54.495
+  9
+$EXTMAX
+  10
+2585.355
+  20
+730.68
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LTYPE
+  70
+1
+  0
+LTYPE
+  2
+CONTINUOUS
+  70
+64
+  3
+Solid line
+  72
+65
+  73
+0
+  40
+0
+  0
+ENDTAB
+  0
+TABLE
+  2
+LAYER
+  70
+2
+  0
+LAYER
+  2
+Copper
+  70
+0
+  62
+136
+  6
+CONTINUOUS
+  0
+LAYER
+  2
+Via
+  70
+0
+  62
+136
+  6
+CONTINUOUS
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+BLOCKS
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1861.655
+  20
+590.68
+  0
+VERTEX
+  8
+Copper
+  10
+1908.655
+  20
+590.68
+  0
+VERTEX
+  8
+Copper
+  10
+1908.655
+  20
+580.68
+  0
+VERTEX
+  8
+Copper
+  10
+1861.655
+  20
+580.68
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1861.655
+  20
+590.68
+  0
+VERTEX
+  8
+Copper
+  10
+1670.655
+  20
+590.68
+  0
+VERTEX
+  8
+Copper
+  10
+1670.655
+  20
+580.68
+  0
+VERTEX
+  8
+Copper
+  10
+1861.655
+  20
+580.68
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1590.655
+  20
+545.68
+  0
+VERTEX
+  8
+Copper
+  10
+1670.655
+  20
+545.68
+  0
+VERTEX
+  8
+Copper
+  10
+1670.655
+  20
+625.68
+  0
+VERTEX
+  8
+Copper
+  10
+1590.655
+  20
+625.68
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1845.155
+  20
+530.68
+  0
+VERTEX
+  8
+Copper
+  10
+1845.155
+  20
+500.68
+  0
+VERTEX
+  8
+Copper
+  10
+1925.155
+  20
+500.68
+  0
+VERTEX
+  8
+Copper
+  10
+1925.155
+  20
+530.68
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1861.655
+  20
+500.68
+  0
+VERTEX
+  8
+Copper
+  10
+1861.655
+  20
+490.68
+  0
+VERTEX
+  8
+Copper
+  10
+1908.655
+  20
+490.68
+  0
+VERTEX
+  8
+Copper
+  10
+1908.655
+  20
+500.68
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1922.005
+  20
+430.33
+  0
+VERTEX
+  8
+Copper
+  10
+1861.655
+  20
+490.68
+  0
+VERTEX
+  8
+Copper
+  10
+1908.655
+  20
+490.68
+  0
+VERTEX
+  8
+Copper
+  10
+1908.655
+  20
+477.33
+  0
+VERTEX
+  8
+Copper
+  10
+1922.005
+  20
+477.33
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1861.655
+  20
+580.68
+  0
+VERTEX
+  8
+Copper
+  10
+1861.655
+  20
+530.68
+  0
+VERTEX
+  8
+Copper
+  10
+1908.655
+  20
+530.68
+  0
+VERTEX
+  8
+Copper
+  10
+1908.655
+  20
+580.68
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1861.655
+  20
+610.68
+  0
+VERTEX
+  8
+Copper
+  10
+1861.655
+  20
+590.68
+  0
+VERTEX
+  8
+Copper
+  10
+1908.655
+  20
+590.68
+  0
+VERTEX
+  8
+Copper
+  10
+1908.655
+  20
+610.68
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1861.655
+  20
+730.68
+  0
+VERTEX
+  8
+Copper
+  10
+1861.655
+  20
+630.68
+  0
+VERTEX
+  8
+Copper
+  10
+1908.655
+  20
+630.68
+  0
+VERTEX
+  8
+Copper
+  10
+1908.655
+  20
+730.68
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1927.005
+  20
+477.33
+  0
+VERTEX
+  8
+Copper
+  10
+1922.005
+  20
+477.33
+  0
+VERTEX
+  8
+Copper
+  10
+1922.005
+  20
+430.33
+  0
+VERTEX
+  8
+Copper
+  10
+1927.005
+  20
+430.33
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1944.565
+  20
+198.77
+  0
+VERTEX
+  8
+Copper
+  10
+1944.565
+  20
+198.77
+  0
+VERTEX
+  8
+Copper
+  10
+1849.435
+  20
+-30.9
+  0
+VERTEX
+  8
+Copper
+  10
+1878.075
+  20
+-41.145
+  0
+VERTEX
+  8
+Copper
+  10
+1907.585
+  20
+-48.54
+  0
+VERTEX
+  8
+Copper
+  10
+1937.68
+  20
+-53.005
+  0
+VERTEX
+  8
+Copper
+  10
+1968.065
+  20
+-54.495
+  0
+VERTEX
+  8
+Copper
+  10
+1998.45
+  20
+-53.005
+  0
+VERTEX
+  8
+Copper
+  10
+2028.545
+  20
+-48.54
+  0
+VERTEX
+  8
+Copper
+  10
+2058.055
+  20
+-41.145
+  0
+VERTEX
+  8
+Copper
+  10
+2086.695
+  20
+-30.9
+  0
+VERTEX
+  8
+Copper
+  10
+1991.565
+  20
+198.77
+  0
+VERTEX
+  8
+Copper
+  10
+1991.565
+  20
+198.77
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1944.565
+  20
+238.77
+  0
+VERTEX
+  8
+Copper
+  10
+1991.565
+  20
+238.77
+  0
+VERTEX
+  8
+Copper
+  10
+1991.565
+  20
+248.77
+  0
+VERTEX
+  8
+Copper
+  10
+1944.565
+  20
+248.77
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1753.565
+  20
+238.77
+  0
+VERTEX
+  8
+Copper
+  10
+1944.565
+  20
+238.77
+  0
+VERTEX
+  8
+Copper
+  10
+1944.565
+  20
+248.77
+  0
+VERTEX
+  8
+Copper
+  10
+1753.565
+  20
+248.77
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1743.565
+  20
+267.27
+  0
+VERTEX
+  8
+Copper
+  10
+1743.565
+  20
+248.77
+  0
+VERTEX
+  8
+Copper
+  10
+1753.565
+  20
+248.77
+  0
+VERTEX
+  8
+Copper
+  10
+1753.565
+  20
+220.27
+  0
+VERTEX
+  8
+Copper
+  10
+1723.565
+  20
+220.27
+  0
+VERTEX
+  8
+Copper
+  10
+1723.565
+  20
+267.27
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1753.565
+  20
+215.27
+  0
+VERTEX
+  8
+Copper
+  10
+1753.565
+  20
+220.27
+  0
+VERTEX
+  8
+Copper
+  10
+1723.565
+  20
+220.27
+  0
+VERTEX
+  8
+Copper
+  10
+1723.565
+  20
+215.27
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1753.565
+  20
+180.27
+  0
+VERTEX
+  8
+Copper
+  10
+1753.565
+  20
+195.27
+  0
+VERTEX
+  8
+Copper
+  10
+1723.565
+  20
+195.27
+  0
+VERTEX
+  8
+Copper
+  10
+1723.565
+  20
+180.27
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1778.565
+  20
+180.27
+  0
+VERTEX
+  8
+Copper
+  10
+1698.565
+  20
+180.27
+  0
+VERTEX
+  8
+Copper
+  10
+1698.565
+  20
+100.27
+  0
+VERTEX
+  8
+Copper
+  10
+1778.565
+  20
+100.27
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1726.245
+  20
+284.95
+  0
+VERTEX
+  8
+Copper
+  10
+1726.245
+  20
+284.95
+  0
+VERTEX
+  8
+Copper
+  10
+1562.78
+  20
+352.66
+  0
+VERTEX
+  8
+Copper
+  10
+1570.75
+  20
+369.515
+  0
+VERTEX
+  8
+Copper
+  10
+1580.335
+  20
+385.51
+  0
+VERTEX
+  8
+Copper
+  10
+1591.445
+  20
+400.485
+  0
+VERTEX
+  8
+Copper
+  10
+1603.965
+  20
+414.3
+  0
+VERTEX
+  8
+Copper
+  10
+1617.78
+  20
+426.82
+  0
+VERTEX
+  8
+Copper
+  10
+1632.755
+  20
+437.93
+  0
+VERTEX
+  8
+Copper
+  10
+1648.75
+  20
+447.515
+  0
+VERTEX
+  8
+Copper
+  10
+1665.605
+  20
+455.485
+  0
+VERTEX
+  8
+Copper
+  10
+1733.315
+  20
+292.02
+  0
+VERTEX
+  8
+Copper
+  10
+1733.315
+  20
+292.02
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1533.565
+  20
+318.77
+  0
+VERTEX
+  8
+Copper
+  10
+1333.565
+  20
+318.77
+  0
+VERTEX
+  8
+Copper
+  10
+1333.565
+  20
+168.77
+  0
+VERTEX
+  8
+Copper
+  10
+1533.565
+  20
+168.77
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1663.565
+  20
+223.77
+  0
+VERTEX
+  8
+Copper
+  10
+1663.565
+  20
+228.77
+  0
+VERTEX
+  8
+Copper
+  10
+1633.565
+  20
+228.77
+  0
+VERTEX
+  8
+Copper
+  10
+1633.565
+  20
+223.77
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1663.565
+  20
+180.27
+  0
+VERTEX
+  8
+Copper
+  10
+1663.565
+  20
+203.77
+  0
+VERTEX
+  8
+Copper
+  10
+1633.565
+  20
+203.77
+  0
+VERTEX
+  8
+Copper
+  10
+1633.565
+  20
+180.27
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1533.565
+  20
+228.77
+  0
+VERTEX
+  8
+Copper
+  10
+1633.565
+  20
+228.77
+  0
+VERTEX
+  8
+Copper
+  10
+1633.565
+  20
+258.77
+  0
+VERTEX
+  8
+Copper
+  10
+1533.565
+  20
+258.77
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1633.565
+  20
+228.77
+  0
+VERTEX
+  8
+Copper
+  10
+1633.565
+  20
+258.77
+  0
+VERTEX
+  8
+Copper
+  10
+1663.565
+  20
+258.77
+  0
+VERTEX
+  8
+Copper
+  10
+1663.565
+  20
+228.77
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1688.565
+  20
+180.27
+  0
+VERTEX
+  8
+Copper
+  10
+1608.565
+  20
+180.27
+  0
+VERTEX
+  8
+Copper
+  10
+1608.565
+  20
+100.27
+  0
+VERTEX
+  8
+Copper
+  10
+1688.565
+  20
+100.27
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1663.565
+  20
+228.77
+  0
+VERTEX
+  8
+Copper
+  10
+1703.565
+  20
+228.77
+  0
+VERTEX
+  8
+Copper
+  10
+1703.565
+  20
+258.77
+  0
+VERTEX
+  8
+Copper
+  10
+1663.565
+  20
+258.77
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1726.245
+  20
+284.95
+  0
+VERTEX
+  8
+Copper
+  10
+1727.715
+  20
+283.34
+  0
+VERTEX
+  8
+Copper
+  10
+1729.045
+  20
+281.61
+  0
+VERTEX
+  8
+Copper
+  10
+1730.215
+  20
+279.77
+  0
+VERTEX
+  8
+Copper
+  10
+1731.225
+  20
+277.835
+  0
+VERTEX
+  8
+Copper
+  10
+1732.055
+  20
+275.82
+  0
+VERTEX
+  8
+Copper
+  10
+1732.715
+  20
+273.74
+  0
+VERTEX
+  8
+Copper
+  10
+1733.185
+  20
+271.61
+  0
+VERTEX
+  8
+Copper
+  10
+1733.47
+  20
+269.45
+  0
+VERTEX
+  8
+Copper
+  10
+1733.565
+  20
+267.27
+  0
+VERTEX
+  8
+Copper
+  10
+1743.565
+  20
+267.27
+  0
+VERTEX
+  8
+Copper
+  10
+1743.43
+  20
+270.32
+  0
+VERTEX
+  8
+Copper
+  10
+1743.035
+  20
+273.35
+  0
+VERTEX
+  8
+Copper
+  10
+1742.37
+  20
+276.33
+  0
+VERTEX
+  8
+Copper
+  10
+1741.455
+  20
+279.24
+  0
+VERTEX
+  8
+Copper
+  10
+1740.285
+  20
+282.06
+  0
+VERTEX
+  8
+Copper
+  10
+1738.875
+  20
+284.77
+  0
+VERTEX
+  8
+Copper
+  10
+1737.235
+  20
+287.345
+  0
+VERTEX
+  8
+Copper
+  10
+1735.375
+  20
+289.77
+  0
+VERTEX
+  8
+Copper
+  10
+1733.315
+  20
+292.02
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1991.565
+  20
+218.77
+  0
+VERTEX
+  8
+Copper
+  10
+1991.565
+  20
+238.77
+  0
+VERTEX
+  8
+Copper
+  10
+1944.565
+  20
+238.77
+  0
+VERTEX
+  8
+Copper
+  10
+1944.565
+  20
+218.77
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1991.565
+  20
+248.77
+  0
+VERTEX
+  8
+Copper
+  10
+1991.565
+  20
+268.77
+  0
+VERTEX
+  8
+Copper
+  10
+1944.565
+  20
+268.77
+  0
+VERTEX
+  8
+Copper
+  10
+1944.565
+  20
+248.77
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1991.565
+  20
+288.77
+  0
+VERTEX
+  8
+Copper
+  10
+1991.565
+  20
+308.77
+  0
+VERTEX
+  8
+Copper
+  10
+1944.565
+  20
+308.77
+  0
+VERTEX
+  8
+Copper
+  10
+1944.565
+  20
+288.77
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2022.355
+  20
+437.325
+  0
+VERTEX
+  8
+Copper
+  10
+2022.355
+  20
+427.325
+  0
+VERTEX
+  8
+Copper
+  10
+2032.355
+  20
+427.325
+  0
+VERTEX
+  8
+Copper
+  10
+2032.355
+  20
+437.325
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2022.355
+  20
+447.325
+  0
+VERTEX
+  8
+Copper
+  10
+2022.355
+  20
+447.325
+  0
+VERTEX
+  8
+Copper
+  10
+1954.645
+  20
+610.79
+  0
+VERTEX
+  8
+Copper
+  10
+1972.2
+  20
+617.075
+  0
+VERTEX
+  8
+Copper
+  10
+1990.29
+  20
+621.605
+  0
+VERTEX
+  8
+Copper
+  10
+2008.73
+  20
+624.34
+  0
+VERTEX
+  8
+Copper
+  10
+2027.355
+  20
+625.255
+  0
+VERTEX
+  8
+Copper
+  10
+2045.98
+  20
+624.34
+  0
+VERTEX
+  8
+Copper
+  10
+2064.42
+  20
+621.605
+  0
+VERTEX
+  8
+Copper
+  10
+2082.51
+  20
+617.075
+  0
+VERTEX
+  8
+Copper
+  10
+2100.065
+  20
+610.79
+  0
+VERTEX
+  8
+Copper
+  10
+2032.355
+  20
+447.325
+  0
+VERTEX
+  8
+Copper
+  10
+2032.355
+  20
+447.325
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2032.355
+  20
+447.325
+  0
+VERTEX
+  8
+Copper
+  10
+2232.355
+  20
+447.325
+  0
+VERTEX
+  8
+Copper
+  10
+2232.355
+  20
+437.325
+  0
+VERTEX
+  8
+Copper
+  10
+2032.355
+  20
+437.325
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2260.355
+  20
+427.325
+  0
+VERTEX
+  8
+Copper
+  10
+2260.355
+  20
+457.325
+  0
+VERTEX
+  8
+Copper
+  10
+2245.355
+  20
+457.325
+  0
+VERTEX
+  8
+Copper
+  10
+2245.355
+  20
+447.325
+  0
+VERTEX
+  8
+Copper
+  10
+2230.355
+  20
+447.325
+  0
+VERTEX
+  8
+Copper
+  10
+2230.355
+  20
+427.325
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2032.355
+  20
+437.325
+  0
+VERTEX
+  8
+Copper
+  10
+2022.355
+  20
+437.325
+  0
+VERTEX
+  8
+Copper
+  10
+2022.355
+  20
+447.325
+  0
+VERTEX
+  8
+Copper
+  10
+2032.355
+  20
+447.325
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2230.355
+  20
+422.325
+  0
+VERTEX
+  8
+Copper
+  10
+2230.355
+  20
+427.325
+  0
+VERTEX
+  8
+Copper
+  10
+2260.355
+  20
+427.325
+  0
+VERTEX
+  8
+Copper
+  10
+2260.355
+  20
+422.325
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2230.355
+  20
+387.325
+  0
+VERTEX
+  8
+Copper
+  10
+2230.355
+  20
+402.325
+  0
+VERTEX
+  8
+Copper
+  10
+2260.355
+  20
+402.325
+  0
+VERTEX
+  8
+Copper
+  10
+2260.355
+  20
+387.325
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2205.355
+  20
+387.325
+  0
+VERTEX
+  8
+Copper
+  10
+2285.355
+  20
+387.325
+  0
+VERTEX
+  8
+Copper
+  10
+2285.355
+  20
+307.325
+  0
+VERTEX
+  8
+Copper
+  10
+2205.355
+  20
+307.325
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2260.355
+  20
+457.325
+  0
+VERTEX
+  8
+Copper
+  10
+2280.355
+  20
+457.325
+  0
+VERTEX
+  8
+Copper
+  10
+2280.355
+  20
+427.325
+  0
+VERTEX
+  8
+Copper
+  10
+2260.355
+  20
+427.325
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2315.355
+  20
+427.325
+  0
+VERTEX
+  8
+Copper
+  10
+2300.355
+  20
+427.325
+  0
+VERTEX
+  8
+Copper
+  10
+2300.355
+  20
+457.325
+  0
+VERTEX
+  8
+Copper
+  10
+2315.355
+  20
+457.325
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2345.355
+  20
+427.325
+  0
+VERTEX
+  8
+Copper
+  10
+2345.355
+  20
+457.325
+  0
+VERTEX
+  8
+Copper
+  10
+2315.355
+  20
+457.325
+  0
+VERTEX
+  8
+Copper
+  10
+2315.355
+  20
+427.325
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2315.355
+  20
+422.325
+  0
+VERTEX
+  8
+Copper
+  10
+2315.355
+  20
+427.325
+  0
+VERTEX
+  8
+Copper
+  10
+2345.355
+  20
+427.325
+  0
+VERTEX
+  8
+Copper
+  10
+2345.355
+  20
+422.325
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2315.355
+  20
+387.325
+  0
+VERTEX
+  8
+Copper
+  10
+2315.355
+  20
+402.325
+  0
+VERTEX
+  8
+Copper
+  10
+2345.355
+  20
+402.325
+  0
+VERTEX
+  8
+Copper
+  10
+2345.355
+  20
+387.325
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2290.355
+  20
+387.325
+  0
+VERTEX
+  8
+Copper
+  10
+2370.355
+  20
+387.325
+  0
+VERTEX
+  8
+Copper
+  10
+2370.355
+  20
+307.325
+  0
+VERTEX
+  8
+Copper
+  10
+2290.355
+  20
+307.325
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2385.355
+  20
+427.325
+  0
+VERTEX
+  8
+Copper
+  10
+2345.355
+  20
+427.325
+  0
+VERTEX
+  8
+Copper
+  10
+2345.355
+  20
+457.325
+  0
+VERTEX
+  8
+Copper
+  10
+2385.355
+  20
+457.325
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2385.355
+  20
+517.325
+  0
+VERTEX
+  8
+Copper
+  10
+2585.355
+  20
+517.325
+  0
+VERTEX
+  8
+Copper
+  10
+2585.355
+  20
+367.325
+  0
+VERTEX
+  8
+Copper
+  10
+2385.355
+  20
+367.325
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2019.355
+  20
+427.325
+  0
+VERTEX
+  8
+Copper
+  10
+2019.355
+  20
+402.325
+  0
+VERTEX
+  8
+Copper
+  10
+2035.355
+  20
+402.325
+  0
+VERTEX
+  8
+Copper
+  10
+2035.355
+  20
+427.325
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1960.065
+  20
+426.77
+  0
+VERTEX
+  8
+Copper
+  10
+1960.065
+  20
+401.77
+  0
+VERTEX
+  8
+Copper
+  10
+1988.065
+  20
+401.77
+  0
+VERTEX
+  8
+Copper
+  10
+1988.065
+  20
+426.77
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2020.045
+  20
+359.32
+  0
+VERTEX
+  8
+Copper
+  10
+2020.045
+  20
+349.32
+  0
+VERTEX
+  8
+Copper
+  10
+2034.045
+  20
+349.32
+  0
+VERTEX
+  8
+Copper
+  10
+2034.045
+  20
+359.32
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1960.065
+  20
+348.77
+  0
+VERTEX
+  8
+Copper
+  10
+1960.065
+  20
+308.77
+  0
+VERTEX
+  8
+Copper
+  10
+1976.065
+  20
+308.77
+  0
+VERTEX
+  8
+Copper
+  10
+1976.065
+  20
+348.77
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1966.995
+  20
+401.77
+  0
+VERTEX
+  8
+Copper
+  10
+1966.995
+  20
+390.77
+  0
+VERTEX
+  8
+Copper
+  10
+1980.995
+  20
+390.77
+  0
+VERTEX
+  8
+Copper
+  10
+1980.995
+  20
+401.77
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1989.72
+  20
+368.045
+  0
+VERTEX
+  8
+Copper
+  10
+2011.32
+  20
+368.045
+  0
+VERTEX
+  8
+Copper
+  10
+2011.32
+  20
+382.045
+  0
+VERTEX
+  8
+Copper
+  10
+1989.72
+  20
+382.045
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2011.32
+  20
+382.045
+  0
+VERTEX
+  8
+Copper
+  10
+2034.045
+  20
+359.32
+  0
+VERTEX
+  8
+Copper
+  10
+2020.045
+  20
+359.32
+  0
+VERTEX
+  8
+Copper
+  10
+2020.045
+  20
+368.045
+  0
+VERTEX
+  8
+Copper
+  10
+2011.32
+  20
+368.045
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1989.72
+  20
+368.045
+  0
+VERTEX
+  8
+Copper
+  10
+1966.995
+  20
+390.77
+  0
+VERTEX
+  8
+Copper
+  10
+1980.995
+  20
+390.77
+  0
+VERTEX
+  8
+Copper
+  10
+1980.995
+  20
+382.045
+  0
+VERTEX
+  8
+Copper
+  10
+1989.72
+  20
+382.045
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1947.005
+  20
+467.83
+  0
+VERTEX
+  8
+Copper
+  10
+1988.065
+  20
+426.77
+  0
+VERTEX
+  8
+Copper
+  10
+1960.065
+  20
+426.77
+  0
+VERTEX
+  8
+Copper
+  10
+1960.065
+  20
+439.83
+  0
+VERTEX
+  8
+Copper
+  10
+1947.005
+  20
+439.83
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1937.005
+  20
+439.83
+  0
+VERTEX
+  8
+Copper
+  10
+1947.005
+  20
+439.83
+  0
+VERTEX
+  8
+Copper
+  10
+1947.005
+  20
+467.83
+  0
+VERTEX
+  8
+Copper
+  10
+1937.005
+  20
+467.83
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+1927.005
+  20
+430.33
+  0
+VERTEX
+  8
+Copper
+  10
+1937.005
+  20
+430.33
+  0
+VERTEX
+  8
+Copper
+  10
+1937.005
+  20
+477.33
+  0
+VERTEX
+  8
+Copper
+  10
+1927.005
+  20
+477.33
+  0
+SEQEND
+  0
+POLYLINE
+  8
+Copper
+  70
+1
+  66
+1
+  0
+VERTEX
+  8
+Copper
+  10
+2019.195
+  20
+349.32
+  0
+VERTEX
+  8
+Copper
+  10
+2019.195
+  20
+309.32
+  0
+VERTEX
+  8
+Copper
+  10
+2035.195
+  20
+309.32
+  0
+VERTEX
+  8
+Copper
+  10
+2035.195
+  20
+349.32
+  0
+SEQEND
+  0
+CIRCLE
+  8
+Via
+  10
+1630.655
+  20
+585.68
+  40
+26
+  0
+CIRCLE
+  8
+Via
+  10
+1738.565
+  20
+140.27
+  40
+26
+  0
+CIRCLE
+  8
+Via
+  10
+1648.565
+  20
+140.27
+  40
+26
+  0
+CIRCLE
+  8
+Via
+  10
+2245.355
+  20
+347.325
+  40
+26
+  0
+CIRCLE
+  8
+Via
+  10
+2330.355
+  20
+347.325
+  40
+26
+  0
+ENDSEC
+  0
+EOF
