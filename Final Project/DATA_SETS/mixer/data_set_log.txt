@@ -1,0 +1,5 @@
+[12696]  Error log for : Mixer_HB Analysis.DS4.dsf
+	[12696]	Read lock timed out : Lock being acquired for 'header load' {GetISimDataSetsForProject}
+	[12696]	Unable to acquire file lock for the data set
+	[12696]	Read lock timed out : Lock being acquired for 'header load' {GetISimDataSetsForProject}
+	[12696]	Unable to acquire file lock for the data set
