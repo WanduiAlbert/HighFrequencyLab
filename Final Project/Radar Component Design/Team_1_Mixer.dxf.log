@@ -1,0 +1,49 @@
+$NI AWR Design Environment
+$Version 13.03r build 8415 Rev1 (106556)
+$Export time : Mon Nov 27 18:34:48 2017
+$Export Format: DXF
+$Export File Name: C:\Users\Albert Wandui\Desktop\High Frequency Systems Lab\Final Project\Team_1_Mixer.dxf
+
+
+
+Statistics Of Layers
+
+Drawing Layer           File Layer              Layer DataType Rects Polygons  Paths Ellipses Texts Pins Drillholes
+-------------------------------------------------------------------------------------------------------------------
+Annotation              Annotation                17        0     0         0     0        0     0    0         0
+SubcircuitAnnotation    SubcircuitAnnotation      16        0     0         0     0        0     0    0         0
+Thick Metal             Thick Metal               12        0     0        47     0        0     0    0         0
+
+
+Summary Of Objects
+------------------
+         0 Rects     
+        47 Polygons  
+         0 Paths     
+         0 Texts     
+         0 Ellipses  
+         0 Instances 
+         0 Arrays    
+         0 Pins      
+         0 Drillholes
+
+
+Export Options
+--------------
+Cell library name: Mixer
+Database unit per DXF unit(nm): 25400
+Database unit size (nm):: 6350
+Draw path as polygon: 1
+Export pcell instances as cells: 0
+Export subcircuits as cells: 1
+Flatten cell hierarchy: 1
+Merge polygons on the +/- layers: 1
+Replace illegal characters in layer names: 0
+Skip faces and draw pins as polygons: 1
+Union polygons on the same layer: 0
+Write Cell using cached geometry: 0
+Write out pcell parameter maps: 0
+
+
+*** There were 0 warning and 0 error messages ***
+
