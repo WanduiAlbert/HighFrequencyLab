@@ -59,7 +59,7 @@ ax.set_ylabel('Cutoff Frequency [GHz]')
 ax2.set_ylabel(r'Gain [dBi]')
 ax.grid(which='both')
 
-plt.savefig('cantenna.png')
+plt.savefig('../latex/cantenna.pdf')
 # ax.hlines()
 
 # # fig2, ax2 = plt.subplots(figsize=(10,10))
